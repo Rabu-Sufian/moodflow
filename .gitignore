@@ -1,0 +1,7 @@
+# Ignore actual data files (not the .dvc trackers)
+data/**/*.csv
+!data/**/*.dvc
+
+# Optional: ignore model files but track their .dvc
+models/
+!models/**/*.dvc
