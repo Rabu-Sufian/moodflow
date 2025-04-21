@@ -5,3 +5,5 @@ data/**/*.csv
 # Optional: ignore model files but track their .dvc
 models/
 !models/**/*.dvc
+
+.moodflow/
