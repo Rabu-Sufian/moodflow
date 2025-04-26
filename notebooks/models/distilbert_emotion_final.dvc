@@ -1,0 +1,6 @@
+outs:
+- md5: 7c6c7481d5348aba93e4f26515ee5f05.dir
+  size: 268795637
+  nfiles: 7
+  hash: md5
+  path: distilbert_emotion_final

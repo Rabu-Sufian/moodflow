@@ -1,9 +1,18 @@
-# Ignore actual data files (not the .dvc trackers)
+# Ignore actual data files (but not their DVC trackers)
 data/**/*.csv
 !data/**/*.dvc
 
-# Optional: ignore model files but track their .dvc
-models/
-!models/**/*.dvc
+# Ignore heavy model binaries but not model folders or DVC trackers
+notebooks/models/**/*.bin
+notebooks/models/**/*.safetensors
+notebooks/models/**/*.pt
+notebooks/models/**/*.h5
+notebooks/models/**/*.ckpt
+!notebooks/models/**/*.dvc
 
+# Ignore local virtual environment
 .moodflow/
+
+# Ignore MLflow experiment folders
+mlruns/
+mlartifacts/

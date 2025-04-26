@@ -1,0 +1,68 @@
+{
+  "best_global_step": 46892,
+  "best_metric": 0.9426837168014203,
+  "best_model_checkpoint": "./models/distilbert_emotion\\checkpoint-46892",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 46892,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "grad_norm": 0.0012699710205197334,
+      "learning_rate": 1.0000426511984988e-05,
+      "loss": 0.1261,
+      "step": 23446
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.9416520716873396,
+      "eval_f1": 0.941708182125092,
+      "eval_loss": 0.08899065107107162,
+      "eval_runtime": 1812.5545,
+      "eval_samples_per_second": 22.996,
+      "eval_steps_per_second": 1.438,
+      "step": 23446
+    },
+    {
+      "epoch": 2.0,
+      "grad_norm": 1.5326757431030273,
+      "learning_rate": 4.2651198498677815e-10,
+      "loss": 0.0859,
+      "step": 46892
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.9426837168014203,
+      "eval_f1": 0.9437858655751317,
+      "eval_loss": 0.08796152472496033,
+      "eval_runtime": 2246.4909,
+      "eval_samples_per_second": 18.554,
+      "eval_steps_per_second": 1.16,
+      "step": 46892
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 46892,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 2,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 2.484788754228019e+16,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}
